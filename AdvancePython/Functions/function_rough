@@ -1,0 +1,16 @@
+Function :-
+---------
+
+function it is a single unit  ---- name
+	program
+
+
+fucntion name --- program
+
+
+syntax:-
+
+def fucntion_name(parameter):
+	statement/program
+
+
