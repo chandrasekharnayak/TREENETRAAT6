@@ -1,0 +1,1 @@
+#mongodb connect with python pymongo lib
