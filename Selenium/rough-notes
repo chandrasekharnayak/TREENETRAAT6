@@ -1,0 +1,17 @@
+Xpath :- Absolute and Relatable
+
+Absolute :- Static Xpath :- using the root
+\\strat_tag\tag\tag\tag  :- //body/div/div[4]/fieldset/label[1]/input
+
+Relatable xpath :- dynamic xpath or custom xpath
+
+//tagname[@attribute='value']
+//input[@value='option1']
+
+and operator
+//input[@class='inputtext _58mg _5dba _2ph-' and  @aria-label='First name']
+
+text() xpath
+//taganme[text(),'text_name']
+
+link:- https://rahulshettyacademy.com/client/auth/register
