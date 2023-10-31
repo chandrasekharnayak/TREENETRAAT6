@@ -41,7 +41,9 @@ driver.quit()
 '''
 Xpath vs CSS
 
-yntax:
+s
+
+ yntax:
 
 XPath: XPath uses a more complex syntax and allows for selecting elements based on their hierarchy and attributes. It provides fine-grained control over element selection.
 
