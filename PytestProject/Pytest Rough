@@ -1,0 +1,44 @@
+What is Framework?
+
+Devlopment framework -----  front,bankend,db  ----- IDE Platform
+
+Dev Framework
+Testing Framework ----
+Deploment Framework
+
+
+Testing --- Application ---- Fucntionality -- component
+Framework --- Rule of platform ---- how to be test
+
+
+Pytest----- imp
+Robot ----
+BDD
+TDD
+Cucumber
+
+
+Django
+Falsk
+Odoo
+
+
+
+Pytest
+-------
+Directory ---- Package---- Libarary
+
+1.Create the test files and test function
+2.Create the test packages
+3.Create the test suites
+4.test case, test file run
+5.test file and test case skip
+6. test file and test case xfail
+7. Perticular test case and test file run.
+8.Multiple test case run at a single time.
+9.Plugin use
+10. Parallel Test file run
+11. Report generate
+
+
+Robot :- Keyword base Framework
