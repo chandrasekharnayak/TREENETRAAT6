@@ -3,3 +3,5 @@ def test_one():
 
 def test_two():
     pass
+
+assert True == False

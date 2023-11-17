@@ -42,3 +42,62 @@ Directory ---- Package---- Libarary
 
 
 Robot :- Keyword base Framework
+
+
+17/11/23
+---------
+Features
+
+1.Innovacation
+
+    command line Interface(CLI)
+    Test Discovery
+    JUnit Style , XML type report generating(Jenkins)
+    Pytest support all kind of python codes
+    Skipping tests
+
+2.Asserations
+
+    >assert :- comparison :- excepted result and outcome result comparison
+    >Python support some Basic assert statement
+    >Custom assertion comparision
+
+3.Parameterized Tests --- DDT(Data Driven Test)
+
+4.Fixture (Setup and teardown) :- built,custom and classic
+
+5.Mocking :- enviroment
+
+6.Pluglings(Parallel test) and Hooks :- pytest-xdist
+
+
+#Import marker :-
+markers are used to add metadata to your test functions.
+They provide a way to categorize and selectively run tests based on
+their assigned markers. Pytest allows you to define
+
+type of marker
+skip,skipif,xfail,customer marker, parametize
+
+
+pytest
+pytest -v -s (all data)
+
+pytest -k test_file_name (perticular test file)
+pytest -k test_math_operation
+
+-m :- custome marker run
+pytest -k test_math_operation -m smoke -v -s
+
+
+
+
+
+
+
+
+
+
+
+
+
