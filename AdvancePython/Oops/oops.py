@@ -697,33 +697,33 @@ class ClassName:
 # class A  class B(A)  class C(A)   class D(A)
 
 
+#
+#
+#     def __init__(self,obj1,obj2):
+#         self.obj1 = obj1
+#         self.obj2 = obj2
+#
+#
+# class B(A):
+#
+#     def __init__(self,obj1,obj2,obj3):
+#         self.obj3 = obj3
+#         super().__init__(obj1,obj2)
+#
+#
+# Intro
+# Keyowrd
+# Identifier
+# data type/data structure
+# opeartor
+# input
+# flow control
 
-
-    def __init__(self,obj1,obj2):
-        self.obj1 = obj1
-        self.obj2 = obj2
-
-
-class B(A):
-
-    def __init__(self,obj1,obj2,obj3):
-        self.obj3 = obj3
-        super().__init__(obj1,obj2)
-
-
-Intro
-Keyowrd
-Identifier
-data type/data structure
-opeartor
-input
-flow control
-
-Function
-File Handeling
-exception handeling
-madule and package
-oops
+# Function
+# File Handeling
+# exception handeling
+# madule and package
+# oops
 
 # list-dict-- compil
 # shallow - deep

@@ -2,7 +2,7 @@
 #then read the data and test data is string or not
 #failed
 #close
-
+import pytest
 from TREENETRA_AT_6.PytestProject.Fixture.conftest import file_opeartion
 
 def test_file_content_is_string(file_opeartion):
@@ -12,3 +12,5 @@ def test_file_content_is_string(file_opeartion):
         data = file.read()
 
     assert isinstance(data,str)
+
+

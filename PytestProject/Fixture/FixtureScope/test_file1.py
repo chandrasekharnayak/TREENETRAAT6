@@ -18,7 +18,7 @@
 #read this file
 #read test
 # remove
-
+import pytest
 
 class TestFileOpeartionsClass:
     def test_read_file_claas(self,file_data):
@@ -27,7 +27,17 @@ class TestFileOpeartionsClass:
         print(data)
         assert "hello,world" in data
 
+@pytest.mark.skip
+def test_1():
+    pass
 
+@pytest.mark.skipif(reason='No Required')
+def test_2():
+    pass
+
+@pytest.mark.xfail
+def test_3():
+    pass
 
 #bus program:- oops - 173 - 212
 #student 316 - 363
