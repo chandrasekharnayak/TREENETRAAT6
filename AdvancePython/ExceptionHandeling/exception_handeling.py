@@ -25,8 +25,8 @@
 
 
 ## EOFError
-# user_input = input('Enter a number  ')
-# print(c)
+user_input = input('Enter a number  ')
+print(user_input)
 
 # NameError
 # print(variable_name_nor_exit)

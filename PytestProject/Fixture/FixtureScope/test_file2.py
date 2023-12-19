@@ -32,4 +32,4 @@ def test_divide_zero_division():
 
 #pip install pytest pytest-xdist
 
-pytest  -n number --dist=loadscope --tx=auto
+# pytest  -n number --dist=loadscope --tx=auto
